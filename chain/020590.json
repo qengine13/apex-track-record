@@ -1,8 +1,8 @@
 {
-  "chain_hash": "fe8ebb6ad6d6ffd3ab8416fb3b972a66614bd383cb682940590b341ec13468dc",
-  "prior_hash": "d3e08965dc3d18811a34179905942375c475f95b9791f48f6357df203d709f78",
+  "chain_hash": "c20c8d816e98eac579e236ad177061e691ad96a82ef25b00d05d5c4335ccd9ff",
+  "prior_hash": "fe8ebb6ad6d6ffd3ab8416fb3b972a66614bd383cb682940590b341ec13468dc",
   "snapshot": {
-    "as_of_ms": 1779041321000,
+    "as_of_ms": 1779055202000,
     "day_end_ms": 1779062400000,
     "day_start_ms": 1778976000000,
     "drawdown_pct": 508501.48,
