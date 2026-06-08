@@ -1,0 +1,17 @@
+{
+  "chain_hash": "a95f5143a5e09a62d8775d3111550ae9dde97698f6e0f44c75985dd78cfbffa8",
+  "prior_hash": "04780e24621d083877e2d385c447d6fc92653ab2f3e815ccc24054a7e17f0712",
+  "snapshot": {
+    "as_of_ms": 1780956001000,
+    "day_end_ms": 1780963200000,
+    "day_start_ms": 1780876800000,
+    "drawdown_pct": 15280.45,
+    "equity_gbp": -24.98,
+    "sharpe_30d": -4.799,
+    "spec_version": "v1.2",
+    "trade_count_lifetime": 2848,
+    "trade_count_today": 0,
+    "trades_today": [],
+    "win_rate_lifetime": 0.0571
+  }
+}
