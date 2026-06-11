@@ -1,0 +1,1648 @@
+{
+  "chain_hash": "6376939e862cf7bb37821abeac341de2181ab7616c70eb8cd47b8610e8ee520b",
+  "prior_hash": "29dc40c8837e9f6f2d852a84a135e0634b41ac338d9ed3a01d0f7aa93aaadcb3",
+  "snapshot": {
+    "as_of_ms": 1781215202000,
+    "day_end_ms": 1781222400000,
+    "day_start_ms": 1781136000000,
+    "drawdown_pct": 15280.45,
+    "equity_gbp": -23.96,
+    "sharpe_30d": -3.947,
+    "spec_version": "v1.2",
+    "trade_count_lifetime": 3011,
+    "trade_count_today": 163,
+    "trades_today": [
+      {
+        "entry": 0.0,
+        "event_id": "crss-cointelegraph-cc7e9df6e34e1a8545cd",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-cointelegraph-a81e4b04e28fdfd11f4c",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-cointelegraph-bf279d3577bfe7e68607",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-decrypt-7fa868dcd54e2132053c",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53140303-INTC",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "INTC"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53140384-ORCL",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ORCL"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-4e7e14492c7d79130286",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XERS"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-326caa55bd404de538c9",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "DXC"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-6821ca2750b6a288ea8b",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "SMMT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-d06322944f2545622f69",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "NRIX"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-0d8a23c25a6de2a8be7f",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "VRNO"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-house-20034693-ABBV-2026-05-05-S",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ABBV"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-house-20034693-AMD-2026-05-05-P",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "AMD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-house-20034712-PG-2026-05-15-P",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "PG"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-house-20034713-ADBE-2026-05-15-S",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ADBE"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-house-20034713-AMD-2026-05-14-P",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "AMD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-house-20034713-AMD-2026-05-15-P",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "AMD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-house-20034713-TSLA-2026-05-29-P",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "TSLA"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "stockact-senate-59c6f909-ad10-429d-8a8c-df81b00cf5fd-PTON-2026-06-05-S",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "PTON"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-coindesk-d41e525050728e1047f9",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-coindesk-6da58daf167c7c610545",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-coindesk-c1668ab69c646cf8e2ed",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "SOL/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-4c5ad9642618a749477b",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ADA/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53140973-ADBE",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ADBE"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53141585-AMAT",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "AMAT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-e60e8a7accdf09d4b59e",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "ELVN"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-b3309ed552a9b872bc29",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "SLN"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-874a88643c44245aa399",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "DAN"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-df1bc834f1eabefc27d6",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "KIM-PN"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-babaf30d6f7ee3a270b6",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "OSUR"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-61aaed534418e76aa693",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "TOVX"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-3c6a7b7abd461a1c5a58",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "AMC"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-00ba9a918175dcdef490",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "DUOT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-f59617b092a5e837eeb7",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "GAVA"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-17a21e6eb770776b05c8",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "AERT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-79df1f445bf195e3c098",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "DFDV"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-24487283efbf5f433096",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "CLOV"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-a9a5021fd1f6eb57be9a",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "FWDI"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-18a82556880000c44820",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "SPT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-00f67512c63ad3665027",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "GOAI"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-cc3048a7faca8bcd7772",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "AIFC"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-f0f645bb89f289ad08cc",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "TGLS"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-decrypt-904e1d8dca66c9df73c1",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "SOL/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-bitcoinmag-13577a5d0680ad53f214",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53144186-GMAB",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "GMAB"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53144308-GCDT",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "GCDT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53144571-SJM",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "SJM"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140605889-AAPL",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "AAPL"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53129028-CVX",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "CVX"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53144060-GOOGL",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "GOOGL"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140605957-META",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "META"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-8d3bec5261575b69c18b",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 80.407778,
+        "event_id": "fhnws-140605330-NFLX",
+        "exit": 0.0,
+        "horizon_ms": 14400000,
+        "outcome": "WIN",
+        "pnl_bps": 102.7156850550413,
+        "side": "LONG",
+        "ticker": "NFLX"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140606105-CRM",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "CRM"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53144806-IRM",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "IRM"
+      },
+      {
+        "entry": 176.97,
+        "event_id": "fhnws-140606032-ORCL",
+        "exit": 0.0,
+        "horizon_ms": 676071,
+        "outcome": "WIN",
+        "pnl_bps": 139.09400214858223,
+        "side": "LONG",
+        "ticker": "ORCL"
+      },
+      {
+        "entry": 220.31,
+        "event_id": "fhnws-140606152-ADBE",
+        "exit": 0.0,
+        "horizon_ms": 226789,
+        "outcome": "LOSS",
+        "pnl_bps": -55.5,
+        "side": "SHORT",
+        "ticker": "ADBE"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140606045-BAC",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BAC"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140606074-MS",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "MS"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140603607-C",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "C"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140605989-XOM",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XOM"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140606508-COP",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "COP"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-a15096b18bbded1eff4a",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 240.543333,
+        "event_id": "fhnws-140605990-JNJ",
+        "exit": 0.0,
+        "horizon_ms": 2430380,
+        "outcome": "LOSS",
+        "pnl_bps": -75.0,
+        "side": "LONG",
+        "ticker": "JNJ"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-95cc8a8394b0a0e2d9ea",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "DOGE/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140605442-LLY",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "LLY"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53145275-SLYG",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "SLYG"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53145275-VSAT",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "VSAT"
+      },
+      {
+        "entry": 87.15,
+        "event_id": "alpnws-53145275-XSMO",
+        "exit": 0.0,
+        "horizon_ms": 6477709,
+        "outcome": "LOSS",
+        "pnl_bps": -75.0,
+        "side": "LONG",
+        "ticker": "XSMO"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53145385-CZWI",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "CZWI"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-cryptoslate-984780b690feab92083b",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 319.01,
+        "event_id": "fhnws-140605992-V",
+        "exit": 0.0,
+        "horizon_ms": 14400000,
+        "outcome": "WIN",
+        "pnl_bps": 81.04207951837422,
+        "side": "LONG",
+        "ticker": "V"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140605317-MA",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "MA"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "edgar-fp-3ba44f362709276c3f4a",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "CPT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-a2f14b3be284597b72b7",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53145816-HUMA",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "HUMA"
+      },
+      {
+        "entry": 121.05,
+        "event_id": "fhnws-140605995-WMT",
+        "exit": 0.0,
+        "horizon_ms": 8773117,
+        "outcome": "FLAT",
+        "pnl_bps": 1.0,
+        "side": "LONG",
+        "ticker": "WMT"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-d7280b518cea9d59bc83",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-3595a43261fd089b7ebe",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 90.13,
+        "event_id": "alpnws-53145971-HOOD",
+        "exit": 0.0,
+        "horizon_ms": 75866,
+        "outcome": "LOSS",
+        "pnl_bps": -75.0,
+        "side": "LONG",
+        "ticker": "HOOD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-07461d072bff1ece8dbe",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-c4e8e85970dff7c4cb07",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ADA/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-7029b9e4ed76bea3118f",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-74739fbae9666f29cbba",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-b3655519ea0de158c4fa",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-fd719d48874218cb2287",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-56812190b578dcff7ce5",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-6c13c188339c8771b880",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-060f2f4897241b5aff71",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "SOL/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-93f1339221b817610711",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-365c2819c0be1a970e12",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-240171f4e1e0eb576b78",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-434be554b8cfa0270376",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-beincrypto-17b5840c9b43d2aed7d0",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "SOL/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-e29953d6600be5c0c83d",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 208.15,
+        "event_id": "fhnws-140607246-MS",
+        "exit": 0.0,
+        "horizon_ms": 5053996,
+        "outcome": "LOSS",
+        "pnl_bps": -75.0,
+        "side": "SHORT",
+        "ticker": "MS"
+      },
+      {
+        "entry": 134.98,
+        "event_id": "fhnws-140607252-C",
+        "exit": 0.0,
+        "horizon_ms": 7131340,
+        "outcome": "WIN",
+        "pnl_bps": 117.26272505001171,
+        "side": "LONG",
+        "ticker": "C"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140607158-JNJ",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "JNJ"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "fhnws-140607291-PFE",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "PFE"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-8d24daccb5f001156cdd",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-d77c7b08a9dcfbff32a7",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-bitcoinmag-06ce1d8d354c24e02511",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-c7033e640f22dbe853e0",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-35a2a1ef28c64d9e7b2f",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-eacac098ae0204fdfa3a",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-3ff7f1f12764b97cdcf1",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "AVAX/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-9f3bb65449698e3e8115",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 239.77,
+        "event_id": "alpnws-53148538-JNJ",
+        "exit": 0.0,
+        "horizon_ms": 11611957,
+        "outcome": "LOSS",
+        "pnl_bps": -75.0,
+        "side": "LONG",
+        "ticker": "JNJ"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-theblock-7b731d8f6139f7bdaa16",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-fee7f31c5338d35048c4",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-95296c4d426e16585e11",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 208.27,
+        "event_id": "alpnws-53148949-MS",
+        "exit": 0.0,
+        "horizon_ms": 9233640,
+        "outcome": "WIN",
+        "pnl_bps": 194.5,
+        "side": "LONG",
+        "ticker": "MS"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-4677cc346cee2a32b563",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "SOL/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-10ef75b5d2ffa8ffa9dd",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-2d27e6f1aaa0c6d1aff1",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-6826c8707e8ef96775ce",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "SOL/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-c11b190ad0e856da78ea",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-4b659e5b2b35938e4099",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-219b0ba36ace1cc312c6",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-cryptoslate-9dd53471341fd3b1633c",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-dbc95943f15c12d2067f",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-d1c69cb58776f8a0c7a0",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 239.64,
+        "event_id": "fhnws-140608567-JNJ",
+        "exit": 0.0,
+        "horizon_ms": 8272622,
+        "outcome": "LOSS",
+        "pnl_bps": -75.0,
+        "side": "LONG",
+        "ticker": "JNJ"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-f8945ecedda70ca82ed5",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-846e2362196775286389",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-protos-cd45f88f8e6b19f62eb5",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-theblock-79cb14d062bf630ba37a",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-6d3938a27134e51c3075",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-3b49654bc6f8f8209faf",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-protos-9dba10e9a1fe9ef51796",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-3424f0a5b623617798a4",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-6659cfe93c20c556d580",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "SOL/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53152295-XOM",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XOM"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-beincrypto-8dcd033ff805abf4e7b1",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-456a7caf1f6691381930",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-4f15088dd79fae025e07",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-thedefiant-c2e8447549ced64cc674",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "ADA/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-beincrypto-6a18c3b84552251a23a4",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-835d2bff310248d71bab",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-cointelegraph-85215765d3faf9e7d2d1",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53153533-CRWD",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "CRWD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-aaefd86b4e285ae24606",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-55bae46d0c52053c721a",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ADA/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53154249-CHAI",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "CHAI"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53154362-BX",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BX"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53154391-SPCX",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "SPCX"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53154582-NABL",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "NABL"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "alpnws-53154718-GELS",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "GELS"
+      },
+      {
+        "entry": 183.63,
+        "event_id": "fhnws-140610361-ORCL",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "PENDING",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "ORCL"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-4acd118d98aab71ec622",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ADA/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-cointelegraph-0b984766a28a58c24e6c",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-decrypt-fbc61883b3fb2aa3b5c7",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-dfe21e4a161e40a45302",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-thedefiant-40fd91eeaa471d349eab",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-8ea4f629074567203fb7",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-a17013c44a5921152ae0",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "LINK/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-decrypt-66bdc2a4cbd8eda97288",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-beincrypto-ad343146792439ba7d1e",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "NO_DATA",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "XRP/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-bitcoinmag-cec7e946ad55586abf13",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-6fbd30b8fb4ebbd270e7",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "LINK/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-d333d61bcd0e505cf6ab",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "ETH/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "cdnews-128a2d5b455129b4b7fc",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "LONG",
+        "ticker": "BTC/USD"
+      },
+      {
+        "entry": 0.0,
+        "event_id": "crss-decrypt-f3a5e28a57c1d5180ceb",
+        "exit": 0.0,
+        "horizon_ms": 0,
+        "outcome": "REJECTED",
+        "pnl_bps": 0.0,
+        "side": "SHORT",
+        "ticker": "BTC/USD"
+      }
+    ],
+    "win_rate_lifetime": 0.0789
+  }
+}
