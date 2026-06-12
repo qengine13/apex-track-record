@@ -1,23 +1,10 @@
 # Verify the public hash-chained track record on every push.
 #
-# Why this exists:
-#   The public artifact's whole credibility rests on the chain being
-#   independently re-verifiable. Running the verifier in CI on every push
-#   gives a status badge that proves no rewrite ever shipped without being
-#   caught: any tampering breaks the chain and turns the badge red.
-#
-# What it does:
-#   1. Checks out THIS repo (apex-track-record) into ./record.
-#   2. Checks out the open-source qengine13/trade repo into ./trade for
-#      the verifier source. Public, no token needed.
-#   3. Sets up Python 3.12 (matches the publisher's Python version).
-#   4. Runs `python -m intelligence_core.track_record.verifier <chain>`
-#      from inside ./trade with PYTHONPATH set, so the verifier loads
-#      the chain entries from THIS repo and exits 0 (valid) or 1 (broken).
-#
-# Pinned to action major versions @v6 — current stable for both checkout
-# and setup-python (verified via Context7 2026-04-25). Bumping a major is
-# a deliberate change; never use floating tags.
+# The verifier is VENDORED into this repo (./verifier — zero third-party
+# deps, ~150 lines, readable end-to-end), so verification needs no
+# external checkout and auditors can read the exact code CI runs.
+# (Previous design checked out a qengine13/trade repo that is not public
+# — first push failed on Not Found; fixed 2026-06-12.)
 
 name: Verify Chain
 
@@ -26,9 +13,6 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  # Allow manual re-runs from the Actions tab without a code change. Useful
-  # to confirm the chain still verifies after a verifier-side hot-fix in
-  # the trade repo.
   workflow_dispatch:
 
 permissions:
@@ -38,21 +22,8 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout track-record repo
+      - name: Checkout
         uses: actions/checkout@v6
-        with:
-          path: record
-
-      - name: Checkout verifier source (qengine13/trade)
-        uses: actions/checkout@v6
-        with:
-          repository: qengine13/trade
-          path: trade
-          # Sparse-checkout keeps the workflow fast: we only need the
-          # verifier package, not the full trading-system source.
-          sparse-checkout: |
-            intelligence_core/track_record
-          sparse-checkout-cone-mode: false
 
       - name: Set up Python 3.12
         uses: actions/setup-python@v6
@@ -60,12 +31,4 @@ jobs:
           python-version: '3.12'
 
       - name: Verify chain
-        # PYTHONPATH points at the trade repo so `python -m
-        # intelligence_core.track_record.verifier` resolves the package
-        # without an install step. The verifier has zero third-party deps
-        # by design (see verifier.py docstring), so no pip install needed.
-        # Exit code 0 = chain valid, 1 = broken; CI fails on 1 automatically.
-        run: |
-          PYTHONPATH="${GITHUB_WORKSPACE}/trade" \
-            python -m intelligence_core.track_record.verifier \
-            "${GITHUB_WORKSPACE}/record/chain"
+        run: python -m verifier chain
